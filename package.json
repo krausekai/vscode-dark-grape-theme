@@ -20,7 +20,7 @@
 		"url": "https://github.com/krausekai/vscode-dark-grape-theme.git"
 	},
 	"bugs": {
-		"url": "https://github.com/dracula/visual-studio-code/issues"
+		"url": "https://github.com/krausekai/vscode-dark-grape-theme/issues"
 	},
 	"engines": {
 		"vscode": "^1.13.0"
