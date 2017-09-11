@@ -1,0 +1,68 @@
+{
+	"name": "theme-dark-grape",
+	"version": "2.2.0",
+	"displayName": "Dark Grape Theme",
+	"homepage": "",
+	"description": "Dark blue and purple theme with green, yellow, or pink leaves.",
+	"publisher": "krausekai",
+	"license": "MIT",
+	"maintainers": [
+		"Kai Krause <kaikrause95@gmail.com>"
+	],
+	"contributors": [
+		"Derek P Sifford <dereksifford@gmail.com>",
+		"Krzysztof Wisznarewski",
+		"Daniel Ramos",
+		"Eric Jackson"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/krausekai/vscode-dark-grape-theme.git"
+	},
+	"bugs": {
+		"url": "https://github.com/dracula/visual-studio-code/issues"
+	},
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"dark",
+		"grape",
+		"blue",
+		"purple",
+		"theme",
+		"color-theme"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#3c4557",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dark Grape (Green Leaf)",
+				"uiTheme": "vs-dark",
+				"path": "./theme/Dark Grape (Green Leaf).json"
+			},
+			{
+				"label": "Dark Grape (Yellow Leaf)",
+				"uiTheme": "vs-dark",
+				"path": "./theme/Dark Grape (Yellow Leaf).json"
+			},
+			{
+				"label": "Dark Grape (Pink Leaf)",
+				"uiTheme": "vs-dark",
+				"path": "./theme/Dark Grape (Pink Leaf).json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "",
+		"publisherId": "",
+		"publisherDisplayName": "Kai Krause"
+	}
+}
