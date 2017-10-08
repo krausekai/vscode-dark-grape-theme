@@ -1,0 +1,28 @@
+// The changed colors from dracula (left), to darkgrape (right)
+
+Green:
+282A36 > 131424
+F8F8F2 > ADADAD
+FF5555 > 4796E5
+50FA7B > 7070d6
+F1FA8C > 4796E5
+BD93F9 > 4796E5
+8BE9FD > 63bedc
+6272A4 > 6879AD
+343746 > 0F1019
+21222C > 11121f
+FFB86C > 7070d6
+E9F284 > ADADAD
+
+Greeen:
+FF79C6 > 53CC3B
+
+Pink:
+53CC3B (FF79C6) > CC3BB3
+
+Yellow:
+53CC3B (FF79C6) > CECE3B
+
+// 2.2.0
+// "tab.unfocusedActiveBorder": null, | "tab.inactiveForeground": "#6879AD",
+// "editorOverviewRuler.findMatchForeground": null, | "editorError.foreground": "#FF2828",
