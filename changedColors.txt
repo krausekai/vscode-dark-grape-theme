@@ -1,6 +1,4 @@
-// The changed colors from dracula (left), to darkgrape (right)
-
-Green:
+// Dark Grape Base Colors (from Dracula (left)):
 282A36 > 131424
 F8F8F2 > ADADAD
 FF5555 > 4796E5
@@ -14,13 +12,13 @@ BD93F9 > 4796E5
 FFB86C > 7070d6
 E9F284 > ADADAD
 
-Greeen:
+// Green:
 FF79C6 > 53CC3B
 
-Pink:
+// Pink:
 53CC3B (FF79C6) > CC3BB3
 
-Yellow:
+// Yellow:
 53CC3B (FF79C6) > CECE3B
 
 // 2.2.0
