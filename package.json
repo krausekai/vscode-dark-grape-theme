@@ -13,8 +13,10 @@
 		"Derek P Sifford <dereksifford@gmail.com>",
 		"Krzysztof Wisznarewski",
 		"Daniel Ramos",
-		"Eric Jackson"
-	],
+		"Eric Jackson",
+		"Elliott Pogue",
+		"Ajit Singh"
+    ],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/krausekai/vscode-dark-grape-theme.git"
