@@ -55,7 +55,7 @@
         "terminal.ansiBrightBlue": "#4796E5",
         "terminal.ansiBrightMagenta": "#CECE3B",
         "terminal.ansiBrightCyan": "#63bedc",
-        "terminal.ansiBrightWhite": "#BFBFBF",
+        "terminal.ansiBrightWhite": "#FFFFFF",
         "terminal.ansiBlack": "#575757",
         "terminal.ansiRed": "#FF6E67",
         "terminal.ansiGreen": "#5AF78E",
@@ -161,20 +161,25 @@
         "editorOverviewRuler.selectionHighlightForeground": "#7070d6",
         "editorOverviewRuler.wordHighlightForeground": "#63bedc",
         "editorOverviewRuler.wordHighlightStrongForeground": "#7070d6",
-        "editorOverviewRuler.modifiedForeground": "#63bedc80",
+        "editorOverviewRuler.modifiedForeground": "#7070d680",
         "editorOverviewRuler.addedForeground": "#7070d680",
         "editorOverviewRuler.deletedForeground": "#4796E580",
         "editorOverviewRuler.errorForeground": "#4796E580",
-        "editorOverviewRuler.warningForeground": "#7070d680",
+        "editorOverviewRuler.warningForeground": "#4796E580",
         "editorOverviewRuler.infoForeground": "#63bedc80",
         "editorError.foreground": "#4796E5",
         "editorError.border": null,
         "editorWarning.foreground": "#63bedc",
         "editorWarning.border": null,
         "editorGutter.background": null,
-        "editorGutter.modifiedBackground": "#63bedc80",
+        "editorGutter.modifiedBackground": "#7070d680",
         "editorGutter.addedBackground": "#7070d680",
         "editorGutter.deletedBackground": "#4796E580",
+        "gitDecoration.modifiedResourceForeground": "#7070d6",
+        "gitDecoration.deletedResourceForeground": "#4796E5",
+        "gitDecoration.untrackedResourceForeground": "#7070d6",
+        "gitDecoration.ignoredResourceForeground": "#6879AD",
+        "gitDecoration.conflictingResourceForeground": "#7070d6",
         "diffEditor.insertedTextBackground": "#7070d620",
         "diffEditor.insertedTextBorder": null,
         "diffEditor.removedTextBackground": "#4796E550",
@@ -325,8 +330,8 @@
                 "invalid"
             ],
             "settings": {
-                "background": "#4796E5",
-                "foreground": "#ADADAD"
+                "foreground": "#4796E5",
+                "fontStyle": "underline italic"
             }
         },
         {
@@ -334,8 +339,8 @@
                 "invalid.deprecated"
             ],
             "settings": {
-                "background": "#4796E5",
-                "foreground": "#ADADAD"
+                "foreground": "#ADADAD",
+                "fontStyle": "underline italic"
             }
         },
         {
@@ -617,7 +622,8 @@
                 "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "#7070d6"
+                "foreground": "#7070d6",
+                "fontStyle": "italic"
             }
         },
         {
@@ -748,7 +754,8 @@
                 "punctuation.separator.pointer-access",
                 "punctuation.separator.slice",
                 "string.unquoted.heredoc punctuation.definition.string",
-                "support.other.chomping-indicator.yaml"
+                "support.other.chomping-indicator.yaml",
+                "punctuation.separator.annotation"
             ],
             "settings": {
                 "foreground": "#CECE3B"
@@ -1114,6 +1121,15 @@
             ],
             "settings": {
                 "foreground": "#ADADAD"
+            }
+        },
+        {
+            "name": "Haskell Pragmas",
+            "scope": [
+                "meta.preprocessor.haskell"
+            ],
+            "settings": {
+                "foreground": "#6879AD"
             }
         }
     ]
