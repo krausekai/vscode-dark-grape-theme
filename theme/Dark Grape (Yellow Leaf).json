@@ -141,7 +141,7 @@
         "editor.inactiveSelectionBackground": null,
         "editor.wordHighlightBackground": "#63bedc50",
         "editor.wordHighlightStrongBackground": "#7070d650",
-        "editor.findMatchBackground": "#7070d6",
+        "editor.findMatchBackground": "#7070d680",
         "editor.findMatchHighlightBackground": "#FFFFFF40",
         "editor.findRangeHighlightBackground": "#44475A75",
         "editor.hoverHighlightBackground": "#191A21",
@@ -462,10 +462,11 @@
             }
         },
         {
-            "name": "Code blocks without scoped language (prose)",
+            "name": "Code blocks",
             "scope": [
                 "fenced_code.block.language",
-                "markup.raw.inner.restructuredtext"
+                "markup.raw.inner.restructuredtext",
+                "markup.fenced_code.block.markdown punctuation.definition.markdown"
             ],
             "settings": {
                 "foreground": "#7070d6"
@@ -661,11 +662,21 @@
         {
             "name": "Decorators",
             "scope": [
-                "meta.decorator variable.other.readwrite"
+                "meta.decorator variable.other.readwrite",
+                "meta.decorator variable.other.property"
             ],
             "settings": {
                 "foreground": "#7070d6",
                 "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Decorator Objects",
+            "scope": [
+                "meta.decorator variable.other.object"
+            ],
+            "settings": {
+                "foreground": "#7070d6"
             }
         },
         {
@@ -777,7 +788,9 @@
                 "punctuation.definition.type.end",
                 "punctuation.section.scope.begin",
                 "punctuation.section.scope.end",
-                "storage.type.generic.java"
+                "storage.type.generic.java",
+                "string.template meta.brace",
+                "string.template punctuation.accessor"
             ],
             "settings": {
                 "foreground": "#ADADAD"
