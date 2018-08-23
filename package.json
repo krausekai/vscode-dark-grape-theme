@@ -1,8 +1,8 @@
 {
 	"name": "theme-dark-grape",
-	"version": "2.8.0",
+	"version": "2.13.0",
 	"displayName": "Dark Grape Theme",
-	"homepage": "",
+	"homepage": "https://github.com/krausekai/vscode-dark-grape-theme/",
 	"description": "Dark blue and purple theme with green, yellow, or pink leaves.",
 	"publisher": "krausekai",
 	"license": "MIT",
