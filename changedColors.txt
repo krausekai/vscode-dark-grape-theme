@@ -1,3 +1,6 @@
+Base theme: Dracula.json
+
+
 // Dark Grape Base Colors (from Dracula (left)):
 282A36 > 131424
 F8F8F2 > ADADAD
